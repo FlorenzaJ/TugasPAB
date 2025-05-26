@@ -21,7 +21,7 @@ class FlorenzaActivity : ComponentActivity() {
             TugasPertamaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Florenza",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -33,7 +33,7 @@ class FlorenzaActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!",
+        text = "Hello $name!, Ini Tugas Pertama Pemrograman Aplikasi Bergerak!",
         modifier = modifier
     )
 }
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     TugasPertamaTheme {
-        Greeting("Android")
+        Greeting("Florenza")
     }
 }
